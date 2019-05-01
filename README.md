@@ -1,5 +1,5 @@
-# RoshanStockAI
-A A.I. Stock Recommend System Developed in Python
+# RoshanStock
+A Stock Recommend System Developed in Python
 
 # Main Requirement:
 

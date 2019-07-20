@@ -1,12 +1,10 @@
 import os, time, datetime, logging, warnings
 import pandas as pd
-
 from DataBase.Start_DB_Server import SetAdminUser, StartServer, ShutdownServer
 from FetchData.Fetch_Data_Stock_US_Daily import updateStockData_US_Daily
 from FetchData.Fetch_Data_Stock_CHN_Daily import updateStockData_CHN_Daily
 
 # Roshan Stock was Developed by Roshan Lamichhane
-
 
 if __name__ == "__main__":    
     pd.set_option('precision', 3)

@@ -19,7 +19,7 @@ brew install mongodb --with-openssl
 
 brew services start mongodb
 
-mongod --dbpath (Your Porject Folder)/Data/DB
+mongod --dbpath (Your Project Folder)/Data/DB
 
 
 When you storing stock data with mongodb mode, you may meet too many open files problem, try the following codes in command line:
